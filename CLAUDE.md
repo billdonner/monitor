@@ -18,7 +18,7 @@ This dashboard monitors servers from other ecosystems. When those projects chang
 
 | Change | Action |
 |--------|--------|
-| Engine port changes from 9847 | Update `config/servers.yaml` in server-monitor |
+| card-engine port changes from 9810 | Update `config/servers.yaml` in server-monitor |
 | Nagzerver port changes from 9800 | Update `config/servers.yaml` in server-monitor |
 | OBO server port changes from 9810 | Update `config/servers.yaml` in server-monitor |
 | New server added to any ecosystem | Add entry to `config/servers.yaml` |

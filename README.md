@@ -6,9 +6,8 @@ A multi-frontend dashboard for monitoring heterogeneous servers (HTTP, Redis, Po
 
 | Service | Type | Port |
 |---------|------|------|
-| Alities Engine | HTTP /metrics | 9847 |
+| card-engine | HTTP /metrics | 9810 |
 | Nagzerver | HTTP /metrics | 9800 |
-| OBO Server | HTTP /metrics | 9810 |
 | Server Monitor (self) | HTTP /metrics | 9860 |
 | Redis | Native protocol | 6379 |
 | Postgres (Nagz) | Native protocol | 5433 |
@@ -50,7 +49,7 @@ See [Docs/](Docs/) for specs and architecture docs.
 | Repo | Description | Port |
 |------|-------------|------|
 | [obo](https://github.com/billdonner/obo) | Hub — specs, docs, orchestration | — |
-| [obo-server](https://github.com/billdonner/obo-server) | Python/FastAPI deck API | 9810 |
+| [card-engine](https://github.com/billdonner/card-engine) | Unified flashcard + trivia backend | 9810 |
 | [obo-gen](https://github.com/billdonner/obo-gen) | Swift CLI deck generator | — |
 | [obo-ios](https://github.com/billdonner/obo-ios) | SwiftUI iOS flashcard app | — |
 
@@ -59,7 +58,7 @@ See [Docs/](Docs/) for specs and architecture docs.
 | Repo | Description | Port |
 |------|-------------|------|
 | [alities](https://github.com/billdonner/alities) | Hub — specs, docs, orchestration | — |
-| [alities-engine](https://github.com/billdonner/alities-engine) | Swift trivia engine daemon | 9847 |
+| [card-engine](https://github.com/billdonner/card-engine) | Unified backend (trivia + ingestion) | 9810 |
 | [alities-studio](https://github.com/billdonner/alities-studio) | React/TypeScript game designer | 9850 |
 | [alities-mobile](https://github.com/billdonner/alities-mobile) | SwiftUI iOS game player | — |
 | [alities-trivwalk](https://github.com/billdonner/alities-trivwalk) | Python TrivWalk trivia game | — |
